@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: red;}
+        </style>
+</head>
+<body>
+    <h1>Welcome to Japan</h1>
+    <div class="faq-section">
+        <div class="faq">
+            <h3>How do I get started?</h3>
+            
+        </div>
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="category1">Category 1</option>
+            <option value="category2">Category 2</option>
+            
+        </select>
+        
+        <button onclick="sortContent()">Sort by Date</button>
+        
+    </div>
+<p>
+Japan, officially known as the "Land of the Rising Sun," is an East Asian island nation located in the Pacific Ocean. Here's a brief description of Japan: </p>
+<div style="background-color:black;color:white;padding:20px;">
+    <h2>Geography </h2>
+    <p>Japan consists of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—along with numerous smaller islands. It is known for its diverse geography, including mountainous terrain, dense forests, and a myriad of hot springs. Mount Fuji, an iconic symbol of Japan, is the country's highest peak. </p>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>My self</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <iframe width="560" height="315" src="Funny video #Shorts.mp4" frameborder="0" allowfullscreen></iframe>
+    <video controls src="" width="500"></video>
+    </div>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+</div>
+<form action="process_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+<div class="comments-section">
+   
+    <div class="comment">
+        <p>User123: This is a great post!</p>
+    </div>
+   
+    <form action="post_comment.php" method="post">
+        <label for="comment">Leave a comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="user-reviews">
+    <div class="review">
+        <p>"Great website"</p>
+        <p class="reviewer">- Ashley</p>
+    </div>
+    
+</div>
+
+
+
+
+</body>
+
+</html>
